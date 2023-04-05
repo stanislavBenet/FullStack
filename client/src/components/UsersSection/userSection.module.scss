@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  font-style: italic;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.btn {
+  margin: 5px;
+  background-color: rgb(49, 121, 49);
+  color: white;
+
+  border-radius: 10px;
+  min-width: 40px;
+  transition: width 2s linear 1s;
+}
+
+.btn:hover {
+  width: 50px;
+}
